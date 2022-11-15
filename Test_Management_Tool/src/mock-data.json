@@ -1,0 +1,56 @@
+[{
+    "id":"TC1",
+    "name": "Login",
+    "prerequisite": "Valid Credentials",
+    "testdata": "Email Id & Password",
+    "description": "Login to Test App",
+    "steps": "Navigate to the url and Check if login page is visible and Enter the ID in User ID filed and password in password field and click on Submit Button",
+    "expected": "User should be able to login successfully",
+    "actual" : "User Successfully logged into application",
+    "status" : "Pass"
+  },
+  {
+      "id": "TC2",
+      "name": "Add Test Case",
+      "prerequisite": "NA",
+      "testdata": "NA",
+      "description": "click on add button to add the test case",
+      "steps": "click on add button and click on submit and verify if details are added",
+      "expected": "details should be added successfully",
+      "actual" : "details added successfully",
+      "status" : "Pass"
+    },
+  {
+      "id": "TC3",
+      "name": "Edit Test Case",
+      "prerequisite": "NA",
+      "testdata": "NA",
+      "description": "click on edit button to update the test case",
+      "steps": "click on edit button, update the fields and click on submit",
+      "expected": "details should be updated successfully",
+      "actual" : "details not updated",
+      "status" : "Fail"
+  },
+  {
+      "id": "TC4",
+      "name": "Delete Test Case",
+      "prerequisite": "NA",
+      "testdata": "NA",
+      "description": "click on delete button to delete the test case",
+      "steps": "click on delete button of the respective test case row",
+      "expected": "details should be deleted successfully",
+      "actual" : "details deleted successfully",
+      "status" : "Pass"
+  },
+  {
+      "id": "TC5",
+      "name": "Cancel Test Case",
+      "prerequisite": "NA",
+      "testdata": "NA",
+      "description": "click on cancel button to cancel the test case",
+      "steps": "click on cancel button to cancel the inprogress updation/addition of testcase",
+      "expected": "testcase cancelled successfully",
+      "actual" : "testcase cancelled successfully",
+      "status" : "Pass"
+}
+]

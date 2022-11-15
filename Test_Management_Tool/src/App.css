@@ -1,0 +1,50 @@
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #080808;
+  text-align: left;
+  padding: 6px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(142, 211, 250);
+  
+}
+
+td {
+  background-color: rgb(240, 243, 245);
+ 
+}
+
+form {
+  display: flex;
+  gap: 4px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 6px;
+}
